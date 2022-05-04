@@ -1,4 +1,4 @@
-package com.example.mynotes.ui
+
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,6 +9,9 @@ import androidx.navigation.Navigation
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.mynotes.R
 import com.example.mynotes.db.NoteDatabase
+import com.example.mynotes.ui.BaseFragment
+import com.example.mynotes.ui.HomeFragmentDirections
+import com.example.mynotes.ui.NotesAdapter
 import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.coroutines.launch
 
